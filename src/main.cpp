@@ -16,7 +16,7 @@ uint8_t getRelayState();
 void setup() 
 {
   pinMode(RELAY_PIN, OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(BAUD);
   connectToWiFi();
 }
 
